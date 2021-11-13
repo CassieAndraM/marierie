@@ -55,3 +55,22 @@ namespace demo1
         }
     }
 }
+
+/* Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\cassandra\Desktop\demo1> cd "c:\Users\cassandra\Desktop\demo1\" ; if ($?) { dotnet run Program.cs }
+Employee Time Keeping System
+Today's Date: 13/11/2021
+To log your time-in enter your employee id: 12345
+Your login time is recorded: 08:00:00
+**************************************
+To log your time-out enter employee id: 12345
+Your logout time is recorded: 17:00:00
+Your total regular hours worked is: 08:00:00
+Your total hours worked is: 10:30:00
+Your total overtime hours is: 02:30:00
+PS C:\Users\cassandra\Desktop\demo1>
+*/
